@@ -114,5 +114,10 @@ if ! shopt -oq posix; then
 fi
 
 export JAVA_HOME=/media/deepak/d/toolslibs/jdk1.7.0
-alias ij=/media/deepak/d/idea-IC-129.239/bin/idea.sh 
+export JDK_HOME=/media/deepak/d/toolslibs/jdk1.7.0
+export PATH=$PATH:/media/deepak/d/toolslibs/jdk1.7.0/bin
+
+alias ij=/media/deepak/d/idea-IU-129.354/bin/idea.sh 
+
 export PYTHONPATH=$PYTHONPATH:/media/deepak/d/tektio/google_appengine/lib/django-1.4
+export PATH=$PATH:/media/deepak/d/tektio/google_appengine
