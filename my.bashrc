@@ -113,11 +113,30 @@ if ! shopt -oq posix; then
   fi
 fi
 
+
 export JAVA_HOME=/media/deepak/d/toolslibs/jdk1.7.0
+export JAVA6_HOME=/media/deepak/d/toolslibs/jdk1.6.0_45
 export JDK_HOME=/media/deepak/d/toolslibs/jdk1.7.0
 export PATH=$PATH:/media/deepak/d/toolslibs/jdk1.7.0/bin
 
+#apptio
 alias ij=/media/deepak/d/idea-IU-129.354/bin/idea.sh 
+alias vpns=/home/deepak/d/apptio/vpn/dnsvpn.sh 
+alias cbit='cd /home/deepak/src/biit'
 
-export PYTHONPATH=$PYTHONPATH:/media/deepak/d/tektio/google_appengine/lib/django-1.4
-export PATH=$PATH:/media/deepak/d/tektio/google_appengine
+#targetingmantra
+alias ctar='cd /media/deepak/d/targetingMantra/worksrc/email'
+
+#export PYTHONPATH=$PYTHONPATH:/media/deepak/d/tektio/google_appengine/lib/django-1.4
+export PATH=$PATH:/media/deepak/d/Google-App-Engine/google_appengine/
+
+export CATALINA_HOME=/media/deepak/d/toolslibs/apache-tomcat-7.0.40
+
+export GRADLE_HOME=/home/deepak/src/build-tools/gradle/current
+export PATH=/home/deepak/src/build-tools/bin:$PATH
+export DERBY_HOME=/home/deepak/glassfish3/javadb
+
+export M2_HOME=/media/deepak/d/toolslibs/apache-maven-3.0.4
+export PATH=/media/deepak/d/toolslibs/apache-maven-3.0.4/bin:$PATH
+export PATH=/home/deepak/glassfish3/bin:$PATH
+
